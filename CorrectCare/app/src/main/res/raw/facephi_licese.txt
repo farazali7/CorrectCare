@@ -1,0 +1,10 @@
+<license>
+    <data>
+        <packageName>com.bioconnect.bcidsample</packageName>
+        <dateEnd>2019-08-16</dateEnd>
+        <dateStart>2018-08-16</dateStart>
+        <licensee>Bioconnect</licensee>
+        <extraData>uPqbw1tiuWjR3rr7COKLe2enMe9Fjo2NvV2yJhKH64PWDHVKfIhgt+zsdLnEzx/VzBFlhjmlcB4QAcqDPdjfT1IWCcfxpxJ/8bREqhLZZdZYEhfyaMrsF5SPw6SoUW1YdMjZqKBvk/7jFuIyFQ3itWVOz+vtExnzot33GkwHBr7KNPop7BYma2pQg+mabVdKgoaSVnu/03jlroTEXnm7w4vEnBmtEs/IL8fhd7y/qp4jXN6VhCaR+ewzgiMRF+DFPY85tUG2r4gPocLAwFbpiGlI05Ti6q3q/wAmtxVms1MrBMtly5JDWgVXiMgKhgPu0d6aKmV2FBKn/LTOrEcSa4HIOviPTRgURQmXaS2XNPCvXPh0qINXWhn5LJIQu13Zl5k40wWJq9VF2bIlb7+QBdyUVlAvosnkkAsAPn7FTjFJevF/IJhQAs5WLQUt+2nVHNRl4Rp2ewYFViWZT7odTQ==</extraData>
+    </data>
+    <signature>sjaXM9XkcpqdYDdrCepSb/IlcpgX5yoMZK0ccti88Gv+88fRroAp9wefwH0qyiN4mdraB6KCWw/Gnum57ycBGA==</signature>
+</license>

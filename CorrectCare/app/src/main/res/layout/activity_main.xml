@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="159dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            app:srcCompat="@drawable/logofinal" />
+    </RelativeLayout>
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/selectPatient"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:padding="16dp"
+        android:text="Please select the patient:"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
+
+<com.webianks.library.scroll_choice.ScrollChoice
+    android:id="@+id/scroll_choice"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    app:scroll_atmospheric="true"
+    app:scroll_background_color="#F5f5f5"
+    app:scroll_indicator="true"
+    app:scroll_indicator_color="#FFF"
+    app:scroll_item_align="center"
+    app:scroll_item_text_color="?attr/colorAccent"
+    app:scroll_selected_item_background="#FFF"
+    app:scroll_selected_item_text_color="#FFC107" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="212dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/biometrics_btn"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="60dp"
+                android:background="@color/colorPrimary"
+                android:onClick="openActivateAuthPage"
+                android:text="Biometrics"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/patient_records_btn"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:background="@color/colorPrimary"
+                android:onClick="getRecord"
+                android:text="Get Records"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="20dp"
+                app:srcCompat="@drawable/cameraidicon"
+                android:onClick="identifyPatient"/>
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="20dp"
+                app:srcCompat="@drawable/settingsiconcc"
+                android:onClick="openSettingsPage"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

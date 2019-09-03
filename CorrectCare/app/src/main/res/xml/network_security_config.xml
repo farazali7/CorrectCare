@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+
+  <domain-config>
+    <domain includeSubdomains="true">auth.bioconnectid.com</domain>
+    <!-- Valid pins -->
+    <pin-set expiration="2028-01-01">
+      <pin digest="SHA-256">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</pin>
+      <pin digest="SHA-256">fYxOlwIUd3nDo7A7bjIYJY5Ope7xcrhK6N0ekRt5B1M=</pin>
+    </pin-set>
+    <trustkit-config enforcePinning="true" disableDefaultReportUri="true">
+    </trustkit-config>
+  </domain-config>
+
+  <domain-config>
+    <domain includeSubdomains="false">stage.ca1.bioconnectid.com</domain>
+    <!-- Valid pins -->
+    <pin-set expiration="2028-01-01">
+      <pin digest="SHA-256">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</pin>
+      <pin digest="SHA-256">JyxD5ULz+ArxehtkoruwO3okAMqv112bBoZsQaC4zMA=</pin>
+    </pin-set>
+    <trustkit-config enforcePinning="true" disableDefaultReportUri="true">
+    </trustkit-config>
+  </domain-config>
+
+  <domain-config>
+    <domain includeSubdomains="false">id.ca1.bioconnectid.com</domain>
+    <!-- Valid pins -->
+    <pin-set expiration="2028-01-01">
+      <pin digest="SHA-256">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</pin>
+      <pin digest="SHA-256">maK7RQExCkIYnovZMwFG024G/ywt6G9c2v/9+F220DM=</pin>
+    </pin-set>
+    <trustkit-config enforcePinning="true" disableDefaultReportUri="true">
+    </trustkit-config>
+  </domain-config>
+
+</network-security-config>
